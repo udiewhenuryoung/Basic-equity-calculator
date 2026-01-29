@@ -1,0 +1,161 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    margin: auto;
+    text-align: left;
+    /*border: 1px solid black;*/
+    width: 800px;
+}
+
+#left_column {
+    width: 30%;
+}
+
+#right_column {
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#all_cards {
+    font-size: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    overflow: hidden;
+    border: 0;
+}
+
+.community_card {
+    border: 1px solid black;
+    width: 100px;
+    height: 140px;
+    padding: 0;
+    border-radius: 15px;
+    /*background-image: url("back.svg");
+    background-size: cover;*/
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.c {
+    background-color: #1dd1a1;
+}
+
+.d {
+    background-color: #54a0ff;
+}
+
+.h {
+    background-color: #ee5253;
+}
+
+.s {
+    background-color: #8395a7;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+input {
+    height: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="text"] {
+    border: none;
+    outline: solid 1px black;
+}
+
+#players {
+    padding: 0;
+    width: 100%;
+    margin-top: 30px;
+    /*border: 1px solid black;*/
+    /*overflow: hidden;*/
+    border-spacing: 10px;
+    border-bottom: 2px solid black;
+}
+
+#players label,
+h2 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+#players th {
+    text-align: left;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+}
+
+#player_column {
+    width: 20%;
+}
+
+#hand_column {
+    width: 50%;
+}
+
+#equity_column {
+    width: 20%;
+}
+
+#players input {
+    width: 100%;
+}
+
+#players td {
+    text-align: left;
+    padding: 0;
+}
+
+tfoot td {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 10px;
+}
